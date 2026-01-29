@@ -8,35 +8,35 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Multiple Support Types:**
-  - 🔗 **URL** - Direct links to websites.
-  - 📝 **Text** - Plain text messages.
-  - 📶 **Wi-Fi** - Instant connection QR codes (WPA/WEP/No Pass).
-  - 👤 **vCard** - Share contact details easily.
-  - 📧 **Communication** - Email, SMS, and WhatsApp templates.
-  - 💳 **Payments** - UPI, PayPal, and Crypto wallet addresses.
-  - 📍 **Location** - Geo-coordinates for maps.
+  - **URL** - Direct links to websites.
+  - **Text** - Plain text messages.
+  - **Wi-Fi** - Instant connection QR codes (WPA/WEP/No Pass).
+  - **vCard** - Share contact details easily.
+  - **Communication** - Email, SMS, and WhatsApp templates.
+  - **Payments** - UPI, PayPal, and Crypto wallet addresses.
+  - **Location** - Geo-coordinates for maps.
 
-- **🎨 Customization:**
+- **Customization:**
   - Adjustable foreground and background colors.
   - Error correction levels (L, M, Q, H).
   - Custom margin sizing.
 
-- **💾 Export & Share:**
+- **Export & Share:**
   - Download high-quality **PNG** images.
   - **Custom Filenames:** Name your files before downloading.
   - Native **Share API** integration for mobile devices.
 
-- **📱 Mobile Optimizations:**
+- **Mobile Optimizations:**
   - Fully responsive design.
   - PWA-ready (Offline support).
   - Prevents auto-zoom on iOS inputs.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React.js (Vite)
 - **Styling:** Tailwind CSS, Lucide React (Icons)
@@ -45,7 +45,7 @@
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 1. **Clone the repository**
    ```bash
@@ -70,10 +70,10 @@
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the application.
 
-## 📄 License
+## License
 
 This project is open-source and available under the **MIT License**.
