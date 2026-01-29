@@ -41,7 +41,7 @@
 - **Frontend:** React.js (Vite)
 - **Styling:** Tailwind CSS, Lucide React (Icons)
 - **QR Generation:** `qrcode` library
-- **Deployment:** Vercel / Netlify / GitHub Pages ready
+- **Deployment:** Vercel 
 
 ---
 
