@@ -20,7 +20,6 @@ export const QR_TYPES = [
     { id: 'email', label: 'Email', icon: Mail },
     { id: 'sms', label: 'SMS Message', icon: Smartphone },
     { id: 'whatsapp', label: 'WhatsApp', icon: MessageSquare },
-    { id: 'payment', label: 'Payment', icon: CreditCard },
     { id: 'location', label: 'Location', icon: MapPin },
 ];
 

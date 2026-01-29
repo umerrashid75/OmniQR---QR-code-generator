@@ -4,7 +4,7 @@ import { UrlInput, TextInput } from './components/inputs/SimpleInputs';
 import { WifiInput } from './components/inputs/WifiInput';
 import { VCardInput } from './components/inputs/VCardInput';
 import { EmailInput, SmsInput, WhatsappInput } from './components/inputs/CommunicationInputs';
-import { PaymentInput } from './components/inputs/PaymentInput';
+
 import { LocationInput } from './components/inputs/LocationInput';
 import { QRControls } from './components/QRControls';
 import { QRCanvas } from './components/QRCanvas';
@@ -14,7 +14,6 @@ import {
   generateEmailString,
   generateSmsString,
   generateWhatsappString,
-  generatePaymentString,
   generateGeoString
 } from './utils/qr-generators';
 import { Download, Share2 } from 'lucide-react';
@@ -65,9 +64,6 @@ function App() {
           break;
         case 'whatsapp':
           if (data.phone) value = generateWhatsappString(data);
-          break;
-        case 'payment':
-          value = generatePaymentString(data.paymentType || 'upi', data);
           break;
         case 'location':
           if (data.latitude && data.longitude) value = generateGeoString(data);
@@ -123,7 +119,6 @@ function App() {
       case 'email': return <EmailInput data={data} onChange={setData} />;
       case 'sms': return <SmsInput data={data} onChange={setData} />;
       case 'whatsapp': return <WhatsappInput data={data} onChange={setData} />;
-      case 'payment': return <PaymentInput data={data} onChange={setData} />;
       case 'location': return <LocationInput data={data} onChange={setData} />;
       default: return <div>Select a type</div>;
     }
